@@ -38,12 +38,18 @@
     "minLength": "{key} يجب ان يكون اكبر من {min} حروف",
     "alreadyExists": "{key} مستعمل مسبقاً"
   },
+  "components": {
+    "videoCard": {
+      "stream": "ابدء المشاهدة مع الاصدقاء",
+      "play": "المشاهدة وحيدا"
+    },
+    "header": {
+      "startAParty": "بدأ المشاهدة الجماعية"
+    },
   "messages": {
     "usernameOrPasswordIsInValid": "اسم المستخدم او كلمة المرور غير صحيح"
   },
   "components": {
-    "header": {
-      "startAParty": "بدأ المشاهدة الجماعية"
     }
   }
 }
