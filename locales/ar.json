@@ -29,7 +29,8 @@
       "reset": "اعادة تعيين",
       "logout": "تسجيل الخروج",
       "createNew": "انشاء {key} جديد"
-    }
+    },
+    "welcome": "اهلا بك {key}"
   },
   "validations": {
     "invalid": "{key} غير صالح",
@@ -39,5 +40,10 @@
   },
   "messages": {
     "usernameOrPasswordIsInValid": "اسم المستخدم او كلمة المرور غير صحيح"
+  },
+  "components": {
+    "header": {
+      "startAParty": "بدأ المشاهدة الجماعية"
+    }
   }
 }
