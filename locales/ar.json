@@ -10,11 +10,15 @@
         "forgotYourPassword": "نسيت كلمة المرور؟",
         "wrongCredentials": "البريد الالكتروني او كلمة المرور غير صحيحة"
       }
+    },
+    "home": {
+      "title": "الصفحة الرئيسية"
     }
   },
   "common": {
     "forms": {
       "email": "البريد الالكتروني",
+      "username": "اسم المستخدم",
       "password": "كلمة المرور"
     },
     "actions": {
@@ -25,12 +29,21 @@
       "reset": "اعادة تعيين",
       "logout": "تسجيل الخروج",
       "createNew": "انشاء {key} جديد"
-    }
+    },
+    "welcome": "اهلا بك {key}"
   },
   "validations": {
     "invalid": "{key} غير صالح",
     "required": "{key} مطلوب",
     "minLength": "{key} يجب ان يكون اكبر من {min} حروف",
     "alreadyExists": "{key} مستعمل مسبقاً"
+  },
+  "messages": {
+    "usernameOrPasswordIsInValid": "اسم المستخدم او كلمة المرور غير صحيح"
+  },
+  "components": {
+    "header": {
+      "startAParty": "بدأ المشاهدة الجماعية"
+    }
   }
 }
