@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "auth": {
+      "login": {
+        "loginFormTitle": "تسجيل الدخول",
+        "orLoginWith": "او استخدم حسابك في احدى المنصات",
+        "loginWithGoogle": "سجل الدخول باستخدام Google",
+        "loginWithFacebook": "سجل الدخول باستخدام Facebook",
+        "loginWithGithub": "سجل الدخول باستخدام Github",
+        "forgotYourPassword": "نسيت كلمة المرور؟",
+        "wrongCredentials": "البريد الالكتروني او كلمة المرور غير صحيحة"
+      }
+    }
+  },
+  "common": {
+    "forms": {
+      "email": "البريد الالكتروني",
+      "password": "كلمة المرور"
+    },
+    "actions": {
+      "login": "تسجيل الدخول",
+      "register": "التسجيل",
+      "send": "ارسال",
+      "cancel": "الغاء",
+      "reset": "اعادة تعيين",
+      "logout": "تسجيل الخروج",
+      "createNew": "انشاء {key} جديد"
+    }
+  },
+  "validations": {
+    "invalid": "{key} غير صالح",
+    "required": "{key} مطلوب",
+    "minLength": "{key} يجب ان يكون اكبر من {min} حروف",
+    "alreadyExists": "{key} مستعمل مسبقاً"
+  }
+}
