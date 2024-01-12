@@ -10,6 +10,9 @@
         "forgotYourPassword": "نسيت كلمة المرور؟",
         "wrongCredentials": "البريد الالكتروني او كلمة المرور غير صحيحة"
       }
+    },
+    "home": {
+      "title": "الصفحة الرئيسية"
     }
   },
   "common": {

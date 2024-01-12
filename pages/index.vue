@@ -5,5 +5,3 @@
     {{ $t("message") }}
   </div>
 </template>
-
-<style></style>

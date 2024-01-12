@@ -9,3 +9,9 @@ declare global {
     accessToken: string;
   }
 }
+
+declare module "#app" {
+  interface PageMeta {
+    public?: boolean;
+  }
+}
