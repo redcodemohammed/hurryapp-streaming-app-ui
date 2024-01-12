@@ -8,4 +8,15 @@ declare global {
     id: Number;
     title: String;
   };
+  
+
+  type LoginResponse = {
+    accessToken: string;
+  }
+}
+
+declare module "#app" {
+  interface PageMeta {
+    public?: boolean;
+  }
 }

@@ -19,5 +19,3 @@ const videos = ref([
     </div>
   </UCard>
 </template>
-
-<style></style>
