@@ -7,12 +7,12 @@ declare global {
   type Video = {
     id: Number;
     title: String;
+    cover: String;
   };
-  
 
   type LoginResponse = {
     accessToken: string;
-  }
+  };
 }
 
 declare module "#app" {
