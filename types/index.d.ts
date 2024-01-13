@@ -15,8 +15,24 @@ declare global {
   }
 
   type EventMessageReceived = {
+    user: {
+      id: number
+      username: string
+    }
     message: string
   };
+
+  type EventVideoSeeked = {
+    position: number
+  };
+
+  type EventUserJoined = {
+    members: number
+  }
+
+  type EventUserLeft = {
+    members: number
+  }
 }
 
 declare module "#app" {

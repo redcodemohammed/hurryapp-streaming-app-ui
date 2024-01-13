@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import tailwindcssScrollbar from "tailwind-scrollbar";
+
 export default <Partial<Config>>{
   theme: {
     extend: {
@@ -8,4 +10,5 @@ export default <Partial<Config>>{
       },
     },
   },
+  plugins: [tailwindcssScrollbar],
 };
