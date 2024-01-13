@@ -34,12 +34,14 @@ const form = ref();
 
 const passwordIsShown = ref(false);
 
-function login() {
-  $auth.login(state.username, state.password);
+async function login() {
+  await $auth.login(state.username, state.password);
+  $router.push("/");
 }
 
-function register() {
-  $auth.register(state.username, state.password);
+async function register() {
+  await $auth.register(state.username, state.password);
+  $router.push("/");
 }
 </script>
 

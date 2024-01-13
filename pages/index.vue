@@ -8,13 +8,19 @@ const videos = ref([
   { id: 6, title: "Hitman", cover: "pictures/6.jpg" },
   { id: 7, title: "Hitman", cover: "pictures/7.jpg" },
 ]);
+
+const isModalOpen = ref(false);
+const openUploadModal = () => {
+  isModalOpen.value = true;
+};
 </script>
 
 <template>
+  <HomeUpload v-if="isModalOpen"></HomeUpload>
   <!-- <img src="./1.jpg" alt="Movie" /> -->
   <UCard class="mt-4 flex min-h-[80vh] text-center">
     <div class="flex mb-4 gap-6 flex-wrap justify-center">
-      <UCard class="flex justify-center w-64 h-60 items-center cursor-pointer">
+      <UCard id="upload-video" class="flex justify-center w-64 h-60 items-center cursor-pointer" @click="openUploadModal">
         <UIcon name="i-tabler-square-rounded-plus" class="text-9xl text-gray-400" />
       </UCard>
       <HomeVideoCard v-for="video in videos" :key="video.id" :video="video"></HomeVideoCard>
