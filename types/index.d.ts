@@ -7,8 +7,8 @@ declare global {
   type Video = {
     id: Number;
     title: String;
+    cover: String;
   };
-  
 
   type LoginResponse = {
     accessToken: string;
@@ -16,7 +16,7 @@ declare global {
 
   type EventMessageReceived = {
     message: string
-  }
+  };
 }
 
 declare module "#app" {

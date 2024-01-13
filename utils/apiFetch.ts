@@ -5,7 +5,7 @@ export function apiFetch<R>(url: string, options?: any) {
   const $loading = useLoadingStore();
   const $config = useRuntimeConfig();
   const defaults = {
-    baseURL: $config.app.apiUrl,
+    baseURL: $config.app.apiURL,
     headers: accessToken.value ? { Authorization: `Bearer ${accessToken.value}` } : {},
     onRequest() {
       $loading.startLoading();

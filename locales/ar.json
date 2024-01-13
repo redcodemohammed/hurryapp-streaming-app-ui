@@ -41,15 +41,19 @@
   "components": {
     "videoCard": {
       "stream": "ابدء المشاهدة مع الاصدقاء",
-      "play": "المشاهدة وحيدا"
+      "play": "المشاهدة"
+    },
+    "uploadModal": {
+      "upload": "قم باختيار الفيديو",
+      "cancel": "انهاء عملية التحميل",
+      "add": "اضافة الفيديو"
     },
     "header": {
       "startAParty": "بدأ المشاهدة الجماعية"
     },
-  "messages": {
-    "usernameOrPasswordIsInValid": "اسم المستخدم او كلمة المرور غير صحيح"
-  },
-  "components": {
-    }
+    "messages": {
+      "usernameOrPasswordIsInValid": "اسم المستخدم او كلمة المرور غير صحيح"
+    },
+    "components": {}
   }
 }
