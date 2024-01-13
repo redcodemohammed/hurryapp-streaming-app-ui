@@ -13,6 +13,10 @@ declare global {
   type LoginResponse = {
     accessToken: string;
   }
+
+  type EventMessageReceived = {
+    message: string
+  }
 }
 
 declare module "#app" {
